@@ -83,7 +83,7 @@ body {
         }
 
         &__title {
-            background-color: $color-green;
+            background-color: $color-blue--lighter;
             color: $color-white;
             padding: $padding-S;
         }
@@ -144,7 +144,7 @@ body {
         }
 
         &__title {
-            background-color: $color-green;
+            background-color: $color-blue--lighter;
             color: $color-white;
             padding: $padding-S;
             text-align: center;
@@ -177,11 +177,6 @@ body {
         &__text {
             width: 100%;
         }
-
-        &__reference {
-            font-size: 0.8em;
-            padding-bottom: $padding-L;
-        }
     }
 
     .es-formula {
@@ -192,7 +187,7 @@ body {
         .es-header {
             text-align: center;
             padding: $padding-S;
-            background-color: $color-green;
+            background-color: $color-blue--lighter;
             color: $color-white;
         }
 
@@ -220,7 +215,7 @@ body {
         }
 
         &__textTitle {
-            color: $color-green;
+            color: $color-blue--lighter;
             font-weight: $fw-bold;
             width: 85%;
             max-width: 300px;
@@ -235,7 +230,7 @@ body {
         }
 
         &__plus {
-            color: $color-green;
+            color: $color-blue--lighter;
             font-size: calc(2*$fs-header);
             font-weight: $fw-bold;
             text-align: center;
@@ -279,7 +274,7 @@ body {
         }
 
         .es-header {
-            color: $color-green;
+            color: $color-blue--lighter;
         }
 
         .es-header--bold {
@@ -336,7 +331,7 @@ body {
         }
 
         &__name {
-            background-color: $color-green;
+            background-color: $color-blue--lighter;
             color: $color-white;
             padding: $padding-XS $padding-M;
             font-weight: $fw-bold;
@@ -496,9 +491,6 @@ body {
             max-width: 550px;
         }
 
-        .es-features__reference {
-            padding-left: 70px;
-        }
 
         .es-formula__bg {
             width: 100%;
@@ -631,7 +623,7 @@ body {
         }
 
         .es-kv__text {
-            max-width: 360px;
+            max-width: 345px;
         }
 
         .es-features {
@@ -639,7 +631,7 @@ body {
         }
 
         .es-features__text {
-            font-size: 1.3em;
+            font-size: 1.5em;
         }
 
         .es-formula {
@@ -657,7 +649,7 @@ body {
             flex-basis: 50%;
             display: grid;
             align-content: flex-start;
-            max-width: 360px;
+            max-width: 425px;
         }
 
         .es-formula__single:hover {
@@ -673,12 +665,13 @@ body {
 
         .es-cross__left {
             justify-content: center;
-            width: 45%;
+            width: 40%;
             gap: $padding-L;
         }
 
         .es-cross__wrapper {
             padding: 0 $padding-S;
+            width: 60%;
         }
 
         .es-cross__single {
@@ -689,16 +682,16 @@ body {
         }
 
         .es-cross__name {
-            font-size: 12px;
+            font-size: 14px;
             padding: 6px 12px;
-            width: unset;
+            width: 90%;
             height: 4em;
             display: grid;
             place-items: center;
         }
 
         .es-cross__desc {
-            font-size: 10px;
+            font-size: 11px;
             height: 3em;
         }
 
