@@ -275,6 +275,8 @@ body {
 }
 #es-rc #es-rc-content .es-cross__img--3 {
   max-height: 240px;
+  max-width: 100px !important;
+  height: auto !important;
 }
 #es-rc #es-rc-content .es-cross__name {
   background-color: #3FB3EE;
@@ -378,6 +380,11 @@ body {
 @media (min-width: 576px) and (max-width: 719px) {
   #es-rc #es-rc-content .es-kv__packshot {
     display: none;
+  }
+}
+@media (max-width: 719px) {
+  #es-rc #es-rc-content .es-kv__packshot img {
+    max-height: 300px;
   }
 }
 @media (min-width: 576px) {
@@ -521,6 +528,8 @@ body {
   }
   #es-rc #es-rc-content .es-features {
     aspect-ratio: 1300/532;
+    justify-content: flex-start;
+    padding-top: 32px;
   }
   #es-rc #es-rc-content .es-features__text {
     font-size: 1.5em;
@@ -538,7 +547,8 @@ body {
     flex-basis: 50%;
     display: grid;
     align-content: flex-start;
-    max-width: 425px;
+    max-width: 420px;
+    text-wrap: balance;
   }
   #es-rc #es-rc-content .es-formula__single:hover {
     box-shadow: 1px 1px 15px 3px rgba(0, 0, 1, 0.1);
